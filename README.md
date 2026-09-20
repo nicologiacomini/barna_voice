@@ -183,6 +183,7 @@ Open `http://localhost:5173`. Allow microphone access when prompted.
 
 ## Documentation
 
+- [Presentation guide and experience diagram](./PRESENTATION.md)
 - [Frontend architecture](./FRONTEND.md)
 - [Backend architecture](./BACKEND.md)
 - [Product flow and voice UX](./PRODUCT_FLOW.md)

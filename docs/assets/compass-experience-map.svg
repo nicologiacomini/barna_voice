@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">Compass — from conversation to a shortlist</title>
+  <desc id="description">Three connected layers support the viewer: a TV interface, a voice agent, and a recommendation backend. The TV exchanges speech, replies and structured picks with the voice agent over WebRTC. The agent uses SLNG for speech, Nebius for reasoning, Pipecat for orchestration and Silero for speech detection. It requests catalogue recommendations from the backend, which combines profiles, viewing history and movie, TV and football data. The TV also requests profiles and Home picks directly from the backend. The active profile and session preserve continuity through pause, details and resume. Unmute defines and compiles the agent before runtime.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#081322"/>
+      <stop offset="0.6" stop-color="#0c1020"/>
+      <stop offset="1" stop-color="#151224"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#20cff7" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#20cff7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#143140"/>
+      <stop offset="1" stop-color="#101a2c"/>
+    </linearGradient>
+    <linearGradient id="poster" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3c8ca4"/>
+      <stop offset="1" stop-color="#21364c"/>
+    </linearGradient>
+    <linearGradient id="poster-purple" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6d609d"/>
+      <stop offset="1" stop-color="#2b2848"/>
+    </linearGradient>
+    <linearGradient id="poster-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#967743"/>
+      <stop offset="1" stop-color="#453329"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8ca0b7" opacity="0.12"/>
+    </pattern>
+    <marker id="cyan-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse">
+      <path d="M0 0 7 3.5 0 7Z" fill="#58def1"/>
+    </marker>
+    <marker id="gold-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0 7 3.5 0 7Z" fill="#f1c578"/>
+    </marker>
+    <marker id="muted-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse">
+      <path d="M0 0 7 3.5 0 7Z" fill="#9aaac1"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", "DejaVu Sans", Arial, sans-serif; }
+      .white { fill: #f6f5f1; }
+      .muted { fill: #b3bfd1; }
+      .cyan { fill: #58def1; }
+      .purple { fill: #c5b6ff; }
+      .gold { fill: #f1c578; }
+      .label { font-size: 14px; font-weight: 700; letter-spacing: 2px; }
+      .heading { font-size: 29px; font-weight: 700; }
+      .body { font-size: 18px; }
+      .small { font-size: 16px; }
+      .node-title { font-size: 21px; font-weight: 600; }
+      .link-label { font-size: 15px; font-weight: 600; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#background)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <ellipse cx="260" cy="440" rx="540" ry="480" fill="url(#halo)"/>
+  <path d="M78 35 64 64H68L78 42 88 64H92Z" fill="#58def1"/>
+  <text x="108" y="59" class="white" font-size="23" font-weight="700" letter-spacing="3">COMPASS</text>
+  <text x="280" y="58" class="muted label">THE EXPERIENCE MAP</text>
+  <rect x="1200" y="34" width="336" height="34" rx="17" fill="#1b2737" stroke="#324357"/>
+  <text x="1368" y="56" class="muted" font-size="14" font-weight="600" text-anchor="middle" letter-spacing="1">DESIGNED FOR THE LIVING ROOM</text>
+  <text x="64" y="123" class="white" font-size="44" font-weight="700">From “what should we watch?” to a shortlist.</text>
+  <text x="64" y="163" class="muted" font-size="22">Speak naturally. Discover together. Refine without starting over.</text>
+
+  <path d="M280 251V211H1320V251" fill="none" stroke="#9aaac1" stroke-width="2" stroke-dasharray="6 7" marker-start="url(#muted-arrow)" marker-end="url(#muted-arrow)"/>
+  <rect x="547" y="192" width="506" height="36" rx="18" fill="#111c2d" stroke="#344359"/>
+  <text x="800" y="216" class="muted body" text-anchor="middle">Profiles + Home picks · direct requests</text>
+
+  <rect x="64" y="252" width="432" height="484" rx="24" fill="#101f2c" stroke="#2d5967"/>
+  <rect x="88" y="252" width="72" height="4" rx="2" fill="#58def1"/>
+  <text x="88" y="286" class="cyan label">01 / TV EXPERIENCE</text>
+  <text x="88" y="323" class="white heading">The screen</text>
+  <text x="88" y="350" class="muted body">See the options. Stay in control.</text>
+
+  <rect x="88" y="382" width="384" height="216" rx="14" fill="url(#screen)" stroke="#367385"/>
+  <circle cx="112" cy="407" r="5" fill="#58def1"/>
+  <text x="127" y="413" class="cyan" font-size="14" font-weight="600">YOUR PROFILE</text>
+  <text x="449" y="413" class="muted" font-size="13" text-anchor="end">4 × 2 BOARD</text>
+  <text x="108" y="445" class="white" font-size="20" font-weight="600">Tonight’s shortlist</text>
+  <g stroke="#7497a4" stroke-opacity="0.3">
+    <rect x="108" y="461" width="77" height="51" rx="7" fill="url(#poster)"/>
+    <rect x="197" y="461" width="77" height="51" rx="7" fill="url(#poster-purple)"/>
+    <rect x="286" y="461" width="77" height="51" rx="7" fill="url(#poster-gold)"/>
+    <rect x="375" y="461" width="77" height="51" rx="7" fill="url(#poster)"/>
+    <rect x="108" y="524" width="77" height="51" rx="7" fill="url(#poster-purple)"/>
+    <rect x="197" y="524" width="77" height="51" rx="7" fill="url(#poster)"/>
+    <rect x="286" y="524" width="77" height="51" rx="7" fill="url(#poster)"/>
+    <rect x="375" y="524" width="77" height="51" rx="7" fill="url(#poster-gold)"/>
+  </g>
+  <rect x="108" y="461" width="77" height="51" rx="7" fill="none" stroke="#82edff" stroke-width="2"/>
+  <g stroke="#d9edf1" stroke-width="3" stroke-linecap="round" opacity="0.55">
+    <path d="M119 498H157M208 498H248M297 498H331M386 498H422"/>
+    <path d="M119 562H153M208 562H245M297 562H337M386 562H423"/>
+  </g>
+  <text x="88" y="637" class="white" font-size="22" font-weight="600">Pause · explore · resume</text>
+  <text x="88" y="666" class="muted body">Voice + familiar remote navigation</text>
+  <rect x="88" y="689" width="77" height="27" rx="13" fill="#193847"/>
+  <text x="126" y="708" class="cyan" font-size="15" text-anchor="middle">React</text>
+  <rect x="175" y="689" width="95" height="27" rx="13" fill="#193847"/>
+  <text x="222" y="708" class="cyan" font-size="15" text-anchor="middle">Zustand</text>
+  <rect x="280" y="689" width="92" height="27" rx="13" fill="#193847"/>
+  <text x="326" y="708" class="cyan" font-size="15" text-anchor="middle">Motion</text>
+
+  <rect x="584" y="252" width="432" height="484" rx="24" fill="#1a1c32" stroke="#5c507f"/>
+  <rect x="608" y="252" width="72" height="4" rx="2" fill="#c5b6ff"/>
+  <text x="608" y="286" class="purple label">02 / VOICE AGENT</text>
+  <text x="608" y="323" class="white heading">The conversation</text>
+  <text x="608" y="350" class="muted body">Listen, understand, act and reply.</text>
+
+  <rect x="608" y="382" width="384" height="64" rx="12" fill="#26253f" stroke="#504969"/>
+  <text x="628" y="410" class="white node-title">SLNG · listen</text>
+  <text x="628" y="433" class="muted small">Turn the viewer’s speech into words</text>
+  <path d="m794 454 6 6 6-6" fill="none" stroke="#9889c5" stroke-width="2"/>
+  <rect x="608" y="466" width="384" height="64" rx="12" fill="#302840" stroke="#8e78b3"/>
+  <text x="628" y="494" class="white node-title">Nebius Token Factory</text>
+  <text x="628" y="517" class="muted small">Understand intent · request suggestions</text>
+  <path d="m794 538 6 6 6-6" fill="none" stroke="#9889c5" stroke-width="2"/>
+  <rect x="608" y="550" width="384" height="64" rx="12" fill="#26253f" stroke="#504969"/>
+  <text x="628" y="578" class="white node-title">SLNG · speak</text>
+  <text x="628" y="601" class="muted small">Turn a short response into speech</text>
+  <text x="608" y="655" class="purple body" font-weight="600">Pipecat coordinates the session</text>
+  <text x="608" y="683" class="muted small">Silero detects speech activity</text>
+  <text x="608" y="709" class="muted small">WebRTC carries audio + screen updates</text>
+
+  <rect x="1104" y="252" width="432" height="484" rx="24" fill="#252126" stroke="#71604c"/>
+  <rect x="1128" y="252" width="72" height="4" rx="2" fill="#f1c578"/>
+  <text x="1128" y="286" class="gold label">03 / PRODUCT BACKEND</text>
+  <text x="1128" y="323" class="white heading">The recommendations</text>
+  <text x="1128" y="350" class="muted body">Ground every shortlist in catalogue data.</text>
+
+  <rect x="1128" y="382" width="384" height="64" rx="12" fill="#332c2d" stroke="#645449"/>
+  <text x="1148" y="410" class="white node-title">Profiles + viewing history</text>
+  <text x="1148" y="433" class="muted small">Existing activity informs personal picks</text>
+  <path d="m1314 454 6 6 6-6" fill="none" stroke="#ba9d74" stroke-width="2"/>
+  <rect x="1128" y="466" width="384" height="64" rx="12" fill="#3b302b" stroke="#ad895b"/>
+  <text x="1148" y="494" class="white node-title">Recommendation service</text>
+  <text x="1148" y="517" class="muted small">Discover · Room consensus · Decide</text>
+  <path d="m1314 544 6-6 6 6" fill="none" stroke="#ba9d74" stroke-width="2"/>
+  <rect x="1128" y="550" width="384" height="64" rx="12" fill="#332c2d" stroke="#645449"/>
+  <text x="1148" y="578" class="white node-title">Unified content catalogue</text>
+  <text x="1148" y="601" class="muted small">Movies · TV schedules · football fixtures</text>
+  <text x="1128" y="655" class="gold body" font-weight="600">FastAPI · pandas · SQLite</text>
+  <text x="1128" y="683" class="muted small">Filter and rank real catalogue candidates</text>
+  <text x="1128" y="709" class="muted small">Separate ML models support prediction</text>
+
+  <g fill="none" stroke="#58def1" stroke-width="2" marker-end="url(#cyan-arrow)">
+    <path d="M497 411H578"/>
+    <path d="M583 490H502"/>
+    <path d="M583 579H502"/>
+  </g>
+  <text x="540" y="398" class="cyan link-label">Talk</text>
+  <text x="540" y="477" class="cyan link-label">Reply</text>
+  <text x="540" y="566" class="cyan link-label">Picks</text>
+  <g fill="none" stroke="#f1c578" stroke-width="2" marker-end="url(#gold-arrow)">
+    <path d="M1017 490H1098"/>
+    <path d="M1103 579H1022"/>
+  </g>
+  <text x="1060" y="477" class="gold link-label">Ask</text>
+  <text x="1060" y="566" class="gold link-label">Results</text>
+
+  <path d="M280 749V775H1320V749M800 749V802" fill="none" stroke="#596981" stroke-width="1.5"/>
+  <rect x="64" y="802" width="1472" height="88" rx="18" fill="#152637" stroke="#3c596e"/>
+  <text x="88" y="829" class="cyan label">SHARED CONTEXT, THROUGHOUT THE EXPERIENCE</text>
+  <text x="88" y="865" class="white" font-size="25" font-weight="600">One profile. One session. A shortlist that evolves.</text>
+  <path d="M965 824V870" stroke="#3c596e"/>
+  <text x="991" y="837" class="white body" font-weight="600">Pause → details → return → resume</text>
+  <text x="991" y="865" class="muted small">Keep the conversation and the current choices.</text>
+
+  <rect x="64" y="919" width="1472" height="1" fill="#344052"/>
+  <text x="64" y="949" class="purple label">BEHIND THE SCENES / UNMUTE</text>
+  <text x="64" y="977" class="muted body">Defines and compiles the voice agent before a session starts.</text>
+  <text x="1536" y="949" class="muted" font-size="15" text-anchor="end">Browser MVP · Titan OS is the device target</text>
+  <text x="1536" y="977" class="muted" font-size="15" text-anchor="end">Picks are structured updates, delivered alongside audio.</text>
+</svg>
